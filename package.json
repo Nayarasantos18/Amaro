@@ -1,0 +1,32 @@
+{
+  "name": "wirecard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index.jk",
+    "build": "tsc",
+    "dev": "tsnd src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nayarasantos18/wirecard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nayarasantos18/wirecard/issues"
+  },
+  "homepage": "https://github.com/Nayarasantos18/wirecard#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0"
+  }
+}
